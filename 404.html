@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>404 | Page Not Found | HOTS</title>
+
+<meta name="robots" content="noindex">
+
+<link rel="stylesheet" href="/css/components.css">
+
+<style>
+
+.error-wrapper{
+    min-height:calc(100vh - 180px);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:3rem 1.2rem;
+}
+
+.error-card{
+    width:min(760px,100%);
+    border:1px solid var(--border);
+    background:var(--card-bg);
+    padding:3rem;
+    box-shadow:0 8px 24px rgba(0,0,0,.06);
+    text-align:center;
+}
+
+.error-code{
+    font-family:Georgia,serif;
+    font-size:5rem;
+    line-height:1;
+    margin:0;
+    color:var(--accent);
+}
+
+.error-title{
+    font-family:Georgia,serif;
+    font-size:2rem;
+    margin:1rem 0;
+}
+
+.error-text{
+    max-width:620px;
+    margin:0 auto 2rem;
+    line-height:1.8;
+    color:var(--text-muted);
+}
+
+.error-actions{
+    display:flex;
+    gap:1rem;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.error-actions a{
+    display:inline-block;
+    padding:.9rem 1.5rem;
+    text-decoration:none;
+    color:var(--text);
+    border:1px solid var(--border);
+    background:var(--card-bg);
+    transition:background-color .2s,color .2s;
+}
+
+.error-actions a:hover{
+    background:var(--accent);
+    color:#fff;
+}
+
+.error-note{
+    margin-top:2.5rem;
+    font-size:.92rem;
+    color:var(--text-muted);
+}
+
+@media(max-width:700px){
+
+.error-card{
+padding:2rem 1.3rem;
+}
+
+.error-code{
+font-size:4rem;
+}
+
+.error-title{
+font-size:1.6rem;
+}
+
+.error-actions{
+flex-direction:column;
+}
+
+.error-actions a{
+width:100%;
+}
+
+}
+
+</style>
+
+<script src="/js/components.js" defer></script>
+
+</head>
+
+<body>
+
+<div id="navbar-placeholder"></div>
+
+<main class="error-wrapper">
+
+<section class="error-card">
+
+<h1 class="error-code">404</h1>
+
+<h2 class="error-title">
+Page Not Found
+</h2>
+
+<p class="error-text">
+
+The page you are looking for may have been moved,
+renamed, removed, or the URL may be incorrect.
+
+</p>
+
+<div class="error-actions">
+
+<a href="/">
+Home</a>
+
+<a href="/2026/">
+Archives
+</a>
+
+<a href="/search/">
+Search Articles
+</a>
+
+</div>
+
+<p class="error-note">
+
+If you typed the address manually,
+please check the spelling and try again.
+
+</p>
+
+</section>
+
+</main>
+
+<div id="footer-placeholder"></div>
+
+</body>
+</html>
