@@ -1,0 +1,27 @@
+/* Year archive specific styles */
+.year-header {
+  margin-bottom: 2rem;
+}
+
+.month-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+}
+
+.month-card {
+  border: 1px solid var(--border);
+  padding: 1.25rem;
+  background: var(--card-bg);
+  text-decoration: none;
+  color: inherit;
+}
+
+.month-card:hover {
+  background: var(--bg-alt);
+}
+
+.month-card h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.15rem;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOTS — Premium Global News | Hot Off The Press</title>
+  <meta name="description" content="HOTS delivers sharp, independent journalism on breaking news, world affairs, technology, AI, science, business, and the stories shaping tomorrow.">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%239f1239'/%3E%3Ctext x='50' y='68' font-family='Georgia,serif' font-size='52' fill='white' text-anchor='middle' font-weight='bold'%3EH%3C/text%3E%3C/svg%3E">
+  <script src="/js/articles-data.js" defer></script>
+  <script src="/js/components.js" defer></script>
+  <script src="/js/homepage.js" defer></script>
+</head>
+<body>
+  <!-- Navbar loaded via JS -->
+  <div id="navbar-placeholder"></div>
+
+  <!-- Reading progress (hidden on home) -->
+  <div id="progress-bar" style="width:0%; display:none;"></div>
+
+  <main>
+    <!-- Hero / Featured Story -->
+    <div class="container section">
+      <div class="hero" id="hero-featured">
+        <!-- Populated by homepage.js -->
+      </div>
+    </div>
+
+    <!-- Latest Headlines -->
+    <div class="container section">
+      <h2 class="section-title">Latest Headlines</h2>
+      <div class="grid" id="latest-grid">
+        <!-- Populated dynamically via JS -->
+      </div>
+    </div>
+
+    <!-- World & Politics -->
+    <div class="container section">
+      <h2 class="section-title">World &amp; Politics</h2>
+      <div class="grid" id="world-politics-grid">
+        <!-- JS populated -->
+      </div>
+    </div>
+
+    <!-- Technology &amp; AI -->
+    <div class="container section">
+      <h2 class="section-title">Technology &amp; Artificial Intelligence</h2>
+      <div class="grid" id="tech-ai-grid">
+        <!-- JS populated -->
+      </div>
+    </div>
+
+    <!-- Science, Space &amp; Climate -->
+    <div class="container section">
+      <h2 class="section-title">Science, Space &amp; Climate</h2>
+      <div class="grid" id="science-space-grid">
+        <!-- JS populated -->
+      </div>
+    </div>
+
+    <!-- Weird &amp; Viral -->
+    <div class="container section">
+      <h2 class="section-title">Weird News &amp; Trending</h2>
+      <div class="grid" id="weird-grid">
+        <!-- JS populated -->
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer loaded via JS -->
+  <div id="footer-placeholder"></div>
+
+  <script>
+    // Small inline init in case homepage.js fails to load
+    document.addEventListener('DOMContentLoaded', function() {
+      if (typeof window.renderHomepageSections === 'function') {
+        window.renderHomepageSections();
+      }
+    });
+  </script>
+</body>
+</html>

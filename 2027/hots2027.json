@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "slug": "2027/july/demo-post-2027",
+    "title": "2027 Climate Report Shows Record Renewable Adoption Worldwide",
+    "excerpt": "Global renewable energy capacity hit new highs in 2027 as solar and wind projects accelerated across Asia, Europe, and North America.",
+    "category": "Climate",
+    "date": "2027-07-10",
+    "image": "https://picsum.photos/id/201/600/400",
+    "readTime": "4 min read"
+  },
+  {
+    "id": 2,
+    "slug": "2027/january/demo-post-2027",
+    "title": "New AI Regulation Framework Takes Effect in EU and US",
+    "excerpt": "Major economies begin enforcing the first wave of coordinated AI safety and transparency rules in early 2027.",
+    "category": "Artificial Intelligence",
+    "date": "2027-01-15",
+    "image": "https://picsum.photos/id/101/600/400",
+    "readTime": "7 min read"
+  }
+]

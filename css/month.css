@@ -1,0 +1,9 @@
+/* Month archive specific styles */
+.month-header {
+  margin-bottom: 1.75rem;
+}
+
+.post-count {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}

@@ -1,0 +1,14 @@
+/* Homepage specific styles - extends components.css */
+.hero {
+  margin-bottom: 2rem;
+}
+
+.section {
+  padding: 2rem 0;
+}
+
+@media (max-width: 640px) {
+  .grid {
+    gap: 1rem;
+  }
+}
