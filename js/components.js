@@ -2,9 +2,6 @@
 
 document.addEventListener('DOMContentLoaded', () => {
   loadNavbarAndFooter();
-  initDarkMode();
-  initMobileMenu();
-  initSearchHandlers();
   initReadingProgress();
 });
 
@@ -17,11 +14,11 @@ async function loadNavbarAndFooter() {
       const response = await fetch('/components/navbar.html');
       if (response.ok) {
         navbarPlaceholder.innerHTML = await response.text();
-        // Re-init mobile & search after load (in case)
-        setTimeout(() => {
-          initMobileMenu();
-          initSearchHandlers();
-        }, 50);
+
+// Initialize navbar features after navbar is loaded
+initDarkMode();
+initMobileMenu();
+initSearchHandlers();
       }
     } catch (e) {
       console.warn('Navbar component could not be loaded. Using fallback if present.');
@@ -45,6 +42,10 @@ async function loadNavbarAndFooter() {
 // Dark mode toggle with localStorage
 function initDarkMode() {
   const toggle = document.getElementById('dark-toggle');
+
+// Prevent duplicate event listeners
+if (toggle?.dataset.initialized) return;
+if (toggle) toggle.dataset.initialized = "true";
   if (!toggle) return;
 
   // Set initial state
@@ -86,18 +87,8 @@ function initMobileMenu() {
 
 // Search form handling (nav + any large search)
 function initSearchHandlers() {
-  // Nav search
-  const navForm = document.querySelector('.search-form');
-  if (navForm) {
-    navForm.addEventListener('submit', function(e) {
-      e.preventDefault();
-      const input = this.querySelector('input');
-      const query = input.value.trim();
-      if (query.length > 1) {
-        window.location.href = `/search/?q=${encodeURIComponent(query)}`;
-      }
-    });
-  }
+// Navigation search button uses a direct link to /search/
+// No JavaScript required here.
 
   // Any other search inputs with data-search attribute
   document.querySelectorAll('[data-search-form]').forEach(form => {
