@@ -77,9 +77,9 @@ img {
 
 /* Layout */
 .container {
-  max-width: 1200px;
+  width: min(1200px, calc(100% - 20px));
   margin: 0 auto;
-  padding: 0 1.25rem;
+  padding: 0;
 }
 
 .section {
@@ -369,6 +369,7 @@ html.dark .news-card:hover {
   margin-bottom: 0.8rem;
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
