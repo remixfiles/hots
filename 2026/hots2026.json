@@ -1,14 +1,5 @@
 [
-  {
-    "id": 1,
-    "slug": "2026/july/wimbledon-young-challenger-stuns-champion",
-    "title": "Wimbledon 2026: 19-Year-Old Phenom Stuns Defending Champion in Thrilling Upset",
-    "excerpt": "In a match that will be remembered for generations, the young British talent defeated the world number one in five grueling sets under the Centre Court roof.",
-    "category": "Sports",
-    "date": "2026-07-05",
-    "image": "https://picsum.photos/id/1005/600/400",
-    "readTime": "6 min read"
-  },
+
   {
     "id": 2,
     "slug": "2026/july/un-ai-ethics-framework-global-ai-governance",
@@ -119,4 +110,16 @@
     "image": "https://picsum.photos/id/251/600/400",
     "readTime": "5 min read"
   }
+,
+{
+  "id": 1,
+  "slug": "2026/july/roman-safiullin-collapses-with-novak-djokovic",
+  "title": "Roman Safiullin Collapses During Wimbledon Clash With Novak Djokovic After Remarkable Injury Comeback",
+  "excerpt": "Roman Safiullin collapsed during his Wimbledon 2026 match against Novak Djokovic after an incredible comeback from injury. Discover how the Russian qualifier fought through pain to inspire tennis fans worldwide.",
+  "category": "Sports",
+  "date": "2026-07-05",
+  "image": "https://media.bolavip.com/wp-content/uploads/sites/10/2026/07/04222828/Roman-Safiullin-1920x1080.webp",
+  "readTime": "6 min read"
+}
+
 ]
