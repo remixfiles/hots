@@ -99,16 +99,6 @@
     "date": "2026-04-12",
     "image": "https://picsum.photos/id/201/600/400",
     "readTime": "9 min read"
-  },
-  {
-    "id": 12,
-    "slug": "2026/march/hollywood-iconic-franchise-reboot-major-studios",
-    "title": "Hollywood's Biggest Franchise Reboot Confirmed with Star-Studded Cast and New Director",
-    "excerpt": "After years of speculation, the studio has officially greenlit a fresh take on the beloved science fiction saga, bringing together Oscar winners and visionary filmmakers for a 2028 release.",
-    "category": "Entertainment",
-    "date": "2026-03-08",
-    "image": "https://picsum.photos/id/251/600/400",
-    "readTime": "5 min read"
   }
 ,
 {
@@ -121,5 +111,17 @@
   "image": "https://media.bolavip.com/wp-content/uploads/sites/10/2026/07/04222828/Roman-Safiullin-1920x1080.webp",
   "readTime": "6 min read"
 }
+,
+{
+  "id": 2,
+  "slug": "2026/july/post2",
+  "title": "Portugal vs Spain: Ronaldo’s Final World Cup Chapter or Yamal’s Defining Moment?",
+  "excerpt": "Portugal and Spain renew their fierce rivalry in the 2026 World Cup Round of 16 as Ronaldo faces rising star Lamine Yamal in a high-stakes showdown.",
+  "category": "Sports",
+  "date": "2026-07-06",
+  "image": "https://res.cloudinary.com/didbcg0dd/image/upload/v1783345875/cr71_jq5kp1.webp",
+  "readTime": "5 min read"
+}
+
 
 ]
