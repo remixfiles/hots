@@ -147,5 +147,6 @@ function copyToClipboard(text) {
 }
 
 // Expose for article pages if needed
-window.HOTS = { copyToClipboard };
+window.HOTS = window.HOTS || {};
+window.HOTS.copyToClipboard = copyToClipboard;
 

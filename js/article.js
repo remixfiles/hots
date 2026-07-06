@@ -1,43 +1,48 @@
 // Article page enhancements
 
 document.addEventListener('DOMContentLoaded', () => {
-  // Related articles
-  renderRelatedArticles();
+// More Latest Posts
+renderLatestPosts();
 
   // Share buttons
   initShareButtons();
 });
 
-function renderRelatedArticles() {
-  const container = document.getElementById('related-grid');
-  if (!container || typeof articlesData === 'undefined') return;
+async function renderLatestPosts() {
 
-  // Get current article slug from URL
-  const currentPath = window.location.pathname.replace(/^\//, '').replace(/\/$/, '');
-  const currentArticle = articlesData.find(a => a.slug === currentPath);
+  const container = document.getElementById("latest-posts-grid");
 
-  if (!currentArticle) return;
+  if (!container) return;
 
-  // Filter same category, exclude current, take 3
-  let related = articlesData
-    .filter(a => a.category === currentArticle.category && a.slug !== currentArticle.slug)
-    .sort((a, b) => new Date(b.date) - new Date(a.date))
-    .slice(0, 3);
+  const posts = await HOTS.loadPosts();
 
-  // If not enough in category, add latest others
-  if (related.length < 3) {
-    const others = articlesData
-      .filter(a => a.slug !== currentArticle.slug && !related.includes(a))
-      .sort((a, b) => new Date(b.date) - new Date(a.date))
-      .slice(0, 3 - related.length);
-    related = [...related, ...others];
+  if (!posts.length) return;
+
+  const currentSlug = window.location.pathname
+    .replace(/^\/|\/$/g, "");
+
+  const currentPost = HOTS.getPostBySlug(posts, currentSlug);
+
+  if (!currentPost) return;
+
+  const latest = posts
+    .filter(post =>
+      post.year === currentPost.year &&
+      post.slug !== currentPost.slug &&
+      post.date >= currentPost.date
+    );
+
+  // Fisher-Yates Shuffle
+  for (let i = latest.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [latest[i], latest[j]] = [latest[j], latest[i]];
   }
 
-  container.innerHTML = '';
-  related.forEach(article => {
-    const card = renderNewsCard(article);
-    container.appendChild(card);
-  });
+  HOTS.renderArticleCards(
+    container,
+    latest.slice(0, 6)
+  );
+
 }
 
 function initShareButtons() {

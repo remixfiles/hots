@@ -1,127 +1,41 @@
 [
-
-  {
-    "id": 2,
-    "slug": "2026/july/un-ai-ethics-framework-global-ai-governance",
-    "title": "Historic UN Framework Establishes First Global Standards for AI Development",
-    "excerpt": "After months of intense negotiations, the United Nations has adopted a comprehensive set of binding principles governing the ethical development and deployment of artificial intelligence worldwide.",
-    "category": "Artificial Intelligence",
-    "date": "2026-07-04",
-    "image": "https://picsum.photos/id/101/600/400",
-    "readTime": "9 min read"
-  },
-  {
-    "id": 3,
-    "slug": "2026/july/istanbul-peace-talks-russia-ukraine-ceasefire-agreement",
-    "title": "Russia and Ukraine Reach Framework Ceasefire Deal in Istanbul Peace Talks",
-    "excerpt": "In a significant diplomatic breakthrough, representatives from both nations have agreed to a temporary ceasefire and humanitarian corridors following weeks of closed-door negotiations in Turkey.",
-    "category": "War Updates",
-    "date": "2026-07-03",
-    "image": "https://picsum.photos/id/160/600/400",
-    "readTime": "7 min read"
-  },
-  {
-    "id": 4,
-    "slug": "2026/july/nasa-artemis-iii-habitat-milestone-moon-colony",
-    "title": "NASA Achieves Key Milestone in Artemis Program with Lunar Habitat Deployment",
-    "excerpt": "The successful installation of the first long-term habitat modules marks a historic step toward establishing a permanent human presence on the Moon by the end of the decade.",
-    "category": "Space",
-    "date": "2026-07-02",
-    "image": "https://picsum.photos/id/251/600/400",
-    "readTime": "8 min read"
-  },
-  {
-    "id": 5,
-    "slug": "2026/july/giant-squid-beached-australia-marine-mystery",
-    "title": "Colossal Giant Squid Washes Ashore in Australia, Baffling Marine Biologists",
-    "excerpt": "A massive specimen measuring over 12 meters has appeared on a remote Western Australian beach, prompting urgent scientific investigation into possible environmental causes.",
-    "category": "Weird News",
-    "date": "2026-07-01",
-    "image": "https://picsum.photos/id/133/600/400",
-    "readTime": "5 min read"
-  },
-  {
-    "id": 6,
-    "slug": "2026/june/cop32-climate-summit-ambitious-emissions-cuts",
-    "title": "COP32: World Leaders Commit to Drastic Emissions Reductions in Landmark Deal",
-    "excerpt": "Negotiators in Geneva secured the most ambitious global climate agreement to date, with major economies pledging steep cuts and new funding mechanisms for vulnerable nations.",
-    "category": "Climate",
-    "date": "2026-06-28",
-    "image": "https://picsum.photos/id/201/600/400",
-    "readTime": "10 min read"
-  },
-  {
-    "id": 7,
-    "slug": "2026/june/apple-vision-pro-2-ai-spatial-computing-revolution",
-    "title": "Apple's Vision Pro 2 Promises to Redefine Spatial Computing with On-Device AI",
-    "excerpt": "The highly anticipated sequel introduces groundbreaking AI capabilities that process everything locally, raising new questions about privacy, productivity, and the future of personal computing.",
-    "category": "Technology",
-    "date": "2026-06-22",
-    "image": "https://picsum.photos/id/30/600/400",
-    "readTime": "7 min read"
-  },
-  {
-    "id": 8,
-    "slug": "2026/june/tesla-robotaxi-launch-autonomous-future",
-    "title": "Tesla Unveils Robotaxi Fleet, Promises to Transform Urban Transportation Forever",
-    "excerpt": "Elon Musk's company revealed its production-ready autonomous vehicle designed specifically for ride-hailing, with initial deployments planned for major U.S. cities within 18 months.",
-    "category": "Business",
-    "date": "2026-06-15",
-    "image": "https://picsum.photos/id/180/600/400",
-    "readTime": "6 min read"
-  },
-  {
-    "id": 9,
-    "slug": "2026/may/g7-tokyo-summit-global-trade-security-pact",
-    "title": "G7 Tokyo Summit Yields New Pact on Supply Chains and Indo-Pacific Security",
-    "excerpt": "Leaders from the world's largest economies agreed on coordinated strategies to secure critical minerals, semiconductor supply, and collective defense initiatives in the Asia-Pacific region.",
-    "category": "World News",
-    "date": "2026-05-18",
-    "image": "https://picsum.photos/id/28/600/400",
-    "readTime": "8 min read"
-  },
-  {
-    "id": 10,
-    "slug": "2026/may/us-2026-midterms-key-battlegrounds-emerge",
-    "title": "2026 Midterm Elections: Battle for Congress Intensifies as Primaries Heat Up",
-    "excerpt": "With control of both chambers at stake, early primaries reveal fierce competition in key swing districts as both parties prepare for what could be a decisive electoral showdown.",
-    "category": "Political News",
-    "date": "2026-05-05",
-    "image": "https://picsum.photos/id/29/600/400",
-    "readTime": "7 min read"
-  },
-  {
-    "id": 11,
-    "slug": "2026/april/crispr-gene-editing-cure-rare-disease-trial",
-    "title": "CRISPR Gene Editing Achieves First Successful Cure for Rare Genetic Disorder",
-    "excerpt": "Clinical trial results published today show complete remission in patients with a previously untreatable inherited condition, opening doors for wider application of precision medicine.",
-    "category": "Science",
-    "date": "2026-04-12",
-    "image": "https://picsum.photos/id/201/600/400",
-    "readTime": "9 min read"
-  }
-,
 {
   "id": 1,
+  "year": 2026,
+  "month": 7,
+  "category": "Sports",
+  "categorySlug": "sports",
   "slug": "2026/july/roman-safiullin-collapses-with-novak-djokovic",
   "title": "Roman Safiullin Collapses During Wimbledon Clash With Novak Djokovic After Remarkable Injury Comeback",
   "excerpt": "Roman Safiullin collapsed during his Wimbledon 2026 match against Novak Djokovic after an incredible comeback from injury. Discover how the Russian qualifier fought through pain to inspire tennis fans worldwide.",
-  "category": "Sports",
   "date": "2026-07-05",
   "image": "https://media.bolavip.com/wp-content/uploads/sites/10/2026/07/04222828/Roman-Safiullin-1920x1080.webp",
   "readTime": "6 min read"
-}
-,
+},
 {
   "id": 2,
+  "year": 2026,
+  "month": 7,
+  "category": "Sports",
+  "categorySlug": "sports",
   "slug": "2026/july/post2",
   "title": "Portugal vs Spain: Ronaldo’s Final World Cup Chapter or Yamal’s Defining Moment?",
   "excerpt": "Portugal and Spain renew their fierce rivalry in the 2026 World Cup Round of 16 as Ronaldo faces rising star Lamine Yamal in a high-stakes showdown.",
-  "category": "Sports",
   "date": "2026-07-06",
   "image": "https://res.cloudinary.com/didbcg0dd/image/upload/v1783345875/cr71_jq5kp1.webp",
   "readTime": "5 min read"
+},
+{
+  "id": 3,
+  "year": 2026,
+  "month": 7,
+  "category": "War Updates",
+  "categorySlug": "war-updates",
+  "slug": "2026/july/post-3-american-pilot",
+  "title": "Deadly Message from Papua: American Pilot Killed as Rebels Burn His Plane",
+  "excerpt": "US pilot Nicholas F. Gosselin was fatally shot by Papuan rebels who burned his civilian plane in Highland Papua, Indonesia on July 2. The attack was a 'message' over alleged military flights. Body recovered as conflict continues.",
+  "date": "2026-07-07",
+  "image": "https://res.cloudinary.com/didbcg0dd/image/upload/v1783376029/papua1_wlftbs.webp",
+  "readTime": "7 min read"
 }
-
-
 ]
